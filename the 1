@@ -1,0 +1,83 @@
+import random
+a=random.choice(["左","右"])
+b=random.randint(1,9)
+c=random.randint(1,6)
+print("请%s侧%d排%d列的同学回答老师问题"%(a,b,c))
+
+s=input("输入:")
+l=s.split("/")
+a=int(l[0])
+b=int(l[1])
+if a==1:
+    print("这是2018年的第%d天"%(b))
+elif a==2:
+    print("这是2018年的第%d天"%(31+b))
+elif a==3:
+    print("这是2018年的第%d天"%(59+b))
+elif a==4:
+    print("这是2018年的第%d天"%(90+b))
+elif a==5:
+    print("这是2018年的第%d天"%(120+b))
+elif a==6:
+    print("这是2018年的第%d天"%(151+b))
+elif a==7:
+    print("这是2018年的第%d天"%(181+b))
+elif a==8:
+    print("这是2018年的第%d天"%(212+b))
+elif a==9:
+    print("这是2018年的第%d天"%(243+b))
+elif a==10:
+    print("这是2018年的第%d天"%(273+b))
+elif a==11:
+    print("这是2018年的第%d天"%(304+b))
+else:
+    print("这是2018年的第%d天"%(334+b))
+
+s=input("输入：")
+z=[]
+import random
+a=random.choice(["左","右"])
+b=random.randint(1,9)
+c=random.randint(1,6)
+print("请%s侧%d排%d列的同学回答老师问题"%(a,b,c))
+
+s=input("输入:")
+l=s.split("/")
+a=int(l[0])
+b=int(l[1])
+if a==1:
+    print("这是2018年的第%d天"%(b))
+elif a==2:
+    print("这是2018年的第%d天"%(31+b))
+elif a==3:
+    print("这是2018年的第%d天"%(59+b))
+elif a==4:
+    print("这是2018年的第%d天"%(90+b))
+elif a==5:
+    print("这是2018年的第%d天"%(120+b))
+elif a==6:
+    print("这是2018年的第%d天"%(151+b))
+elif a==7:
+    print("这是2018年的第%d天"%(181+b))
+elif a==8:
+    print("这是2018年的第%d天"%(212+b))
+elif a==9:
+    print("这是2018年的第%d天"%(243+b))
+elif a==10:
+    print("这是2018年的第%d天"%(273+b))
+elif a==11:
+    print("这是2018年的第%d天"%(304+b))
+else:
+    print("这是2018年的第%d天"%(334+b))
+
+s=input("输入：")
+z=[]
+for i in s:
+    z.append(i)
+l=z.copy()
+l.reverse()
+if l==z:
+    print("是回文字符串")
+else:
+    print("不是回文字符串")
+
